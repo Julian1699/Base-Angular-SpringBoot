@@ -5,7 +5,7 @@
 
 ![Final App A+S FullStack](https://github.com/Julian1699/Base-Angular-SpringBoot/assets/114323630/eefc0579-fe91-4357-8867-0490c3b2f27a)
 
-¡Bienvenido al repositorio del proyecto de la Aplicación de Gestión de Objetos! En esta versión, hemos empleado MySQL para una mayor escalabilidad y rendimiento. La aplicación utiliza tecnologías modernas como Angulary Spring Boot.
+¡Bienvenido al repositorio del proyecto de la Aplicación de Gestión de Objetos! En esta versión, hemos empleado MySQL para una mayor escalabilidad y rendimiento. La aplicación utiliza tecnologías modernas como Angular y Spring Boot.
 
 ## Descripción
 
