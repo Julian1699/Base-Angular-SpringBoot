@@ -3,7 +3,7 @@
 
 ## Aplicación de Gestión de Objetos con Angular, Spring Boot y MySQL
 
-![Final App FullStack](https://github.com/Julian1699/Base-Angular-SpringBoot/assets/114323630/13991635-d262-4461-b7cc-36ddab60bcc0)
+![Final App A+S FullStack](https://github.com/Julian1699/Base-Angular-SpringBoot/assets/114323630/eefc0579-fe91-4357-8867-0490c3b2f27a)
 
 ¡Bienvenido al repositorio del proyecto de la Aplicación de Gestión de Objetos! En esta versión, hemos empleado MySQL para una mayor escalabilidad y rendimiento. La aplicación utiliza tecnologías modernas como Angulary Spring Boot.
 
@@ -77,7 +77,7 @@ La capa de persistencia y gestión de datos se realiza a través de JPA y Hibern
 
 Es importante configurar el archivo `application.properties` con las credenciales de conexión a tu base de datos local. Este proyecto está diseñado para aceptar conexiones a bases de datos MySQL, PostgreSQL y OracleSQL. En este caso, se proporcionan las credenciales de conexión para MySQL.
 
-![image](https://github.com/Julian1699/Base-Angular-SpringBoot/assets/114323630/7eb29dfa-653c-4f3f-9246-fe1afa1abe26)
+![image](https://github.com/Julian1699/Base-Angular-SpringBoot/assets/114323630/2c4df2e2-9451-427e-8d88-e0c7e77aa1fd)
 
 5. Instalar dependencias del backend y ejecutarlo:
     ```bash
