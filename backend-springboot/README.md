@@ -1,8 +1,8 @@
 # Backend del Sistema de Gestión de Objetos 
 
-| Spring Boot | Postgres-Docker |
+| Spring Boot | MySQL |
 
-## Aplicación de Gestión de Objetos con Spring Boot y Postgres-Docker
+## Aplicación de Gestión de Objetos con Spring Boot y MySQL
 
 ¡Bienvenido al repositorio del backend de la Aplicación de Gestión de Objetos! En esta aplicación, utilizamos Spring Boot para el desarrollo del backend, proporcionando una API robusta y segura.
 
@@ -17,55 +17,14 @@ El objetivo central de este backend es proporcionar una API eficiente y centrali
 - **Controladores REST**: Utilizamos controladores REST para definir y gestionar las rutas y acciones de la API.
 - **Persistencia con JPA y Hibernate**: La gestión de datos se realiza a través de JPA y Hibernate, asegurando una interacción eficiente con la base de datos.
 - **Documentación con Swagger**: La API está documentada con Swagger, proporcionando una interfaz interactiva para probar los endpoints.
-- **Base de Datos Postgres-Docker**: Utilizamos Postgres-Docker para la gestión de bases de datos relacional.
+- **Base de Datos MySQL**: Utilizamos MySQL para la gestión de bases de datos relacional.
 
+## Configurar Conexión a tu Base de Datos
 
-## Instalación y Ejecución
+Es importante configurar el archivo `application.properties` con las credenciales de conexión a tu base de datos local. Este proyecto está diseñado para aceptar conexiones a bases de datos MySQL, PostgreSQL y OracleSQL. En este caso, se proporcionan las credenciales de conexión para MySQL.
 
-### Prerrequisitos
+![image](https://github.com/Julian1699/Base-Angular-SpringBoot/assets/114323630/05992cd1-1c4d-4bf9-a2de-69790ce52023)
 
-- Docker instalado y configurado.
-
-### Pasos
-1. Clonar el repositorio:
-   
-```bash
-git clone --branch dockerized-app --single-branch https://github.com/Julian1699/Base-React-SpringBoot.git
-```
-
-2. Ejecutar Docker Compose
-Ejecuta el siguiente comando en el directorio donde se encuentre el archivo docker-compose.yml:
-
-```bash
-docker compose up
-```
-Después de un tiempo, se crearán tres contenedores: uno con la aplicación en React, otro con el API en Spring Boot y otro con la imagen de la base de datos en PostgreSQL, de la siguiente manera:
-
-![image](https://github.com/Julian1699/Base-React-SpringBoot/assets/114323630/dc5b2e3c-664a-4aa2-8ecd-d6f723aaeb18)
-
-3. Acceso a la Base de Datos en Contenedor de Docker
-   
-Para acceder a la base de datos PostgreSQL en el contenedor Docker, sigue estos pasos:
-
-- Abre una terminal que tenga acceso a Docker.
-
-- Ejecuta el siguiente comando para acceder al contenedor:
-   
-```bash
-winpty docker exec -it db-postgres bash
-```
-![image](https://github.com/Julian1699/Base-React-SpringBoot/assets/114323630/333c1e49-58a8-4348-8709-7d0bf8901edb)
-
-- Una vez dentro del contenedor, conéctate a PostgreSQL:
-
-```bash
-psql -U root -d tryapi
-```
-![image](https://github.com/Julian1699/Base-React-SpringBoot/assets/114323630/8a1b3997-30eb-4ebc-a248-84c83c762062)
-   
-- Ahora puedes realizar consultas a las entidades de la base de datos en la terminal:
-
-![image](https://github.com/Julian1699/Base-React-SpringBoot/assets/114323630/17eee8fe-7b45-4f22-9c5d-5a22f2ce295f)
 ## Funcionalidades CRUD
 
 Dirigirse a la ruta especifica del backend y ejecutarlo:
@@ -115,4 +74,4 @@ Permite a los usuarios buscar objetos en la base de datos utilizando varios filt
 
 - Swagger: Documentación interactiva de la API.
 
-- Postgres-Docker: Sistema de gestión de bases de datos relacional.
+- MySQL: Sistema de gestión de bases de datos relacional.

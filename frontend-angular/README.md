@@ -1,27 +1,89 @@
-# FrontendAngular
+# Frontend del Sistema de Gestión de Objetos 
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.3.11.
+| Angular|
 
-## Development server
+## Aplicación de Gestión de Objetos con Angular.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+¡Bienvenido al repositorio del frontend de la Aplicación de Gestión de Objetos! En esta aplicación, utilizamos Angularpara el desarrollo del frontend, proporcionando una experiencia de usuario dinámica y amigable.
 
-## Code scaffolding
+## Descripción
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+El objetivo central de este frontend es proporcionar una interfaz de usuario eficiente y centralizada para la gestión de objetos abstractos. Angular se utiliza en el frontend para construir una interfaz interactiva y receptiva.
 
-## Build
+## Características Clave
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+### Frontend Angular
+- **Componentes Dinámicos**: Utilizamos componentes de Angularpara crear una interfaz de usuario dinámica y modular.
+- **Bootstrap para Estilos**: Se emplea Bootstrap para asegurar un diseño consistente y responsivo.
+- **Iconos con Font Awesome**: Implementación de iconos vectoriales mediante Font Awesome.
+- **Comunicación Asincrónica**: HttpClient se utiliza para manejar las solicitudes HTTP asincrónicas hacia el backend.
 
-## Running unit tests
+## Funcionalidades CRUD
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+### Crear (AgregarObjeto.js)
+Permite a los usuarios agregar nuevos objetos a la base de datos mediante un formulario. Los datos se envían al backend utilizando una solicitud HTTP POST.
 
-## Running end-to-end tests
+## Leer (ListadoObjetos.js)
+Permite a los usuarios ver una lista de todos los objetos almacenados. Los datos se obtienen del backend mediante una solicitud HTTP GET.
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+## Actualizar (EditarObjeto.js)
+Permite a los usuarios editar los detalles de un objeto existente. Los datos modificados se envían al backend utilizando una solicitud HTTP PUT.
 
-## Further help
+## Eliminar (ListadoObjetos.js)
+Permite a los usuarios eliminar un objeto de la base de datos. La eliminación se realiza mediante una solicitud HTTP DELETE.
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+## Buscar Objetos (ListadoObjetos.js)
+
+Permite a los usuarios buscar objetos en la base de datos utilizando varios filtros (nombre, descripción, precio, fecha de creación). La búsqueda se realiza mediante una solicitud HTTP GET con parámetros de consulta.
+
+
+## Tecnologías Empleadas
+
+### Frontend
+- **Angular**: Biblioteca de JavaScript para construir interfaces de usuario.
+- **Bootstrap**: Framework CSS para el diseño responsivo.
+- **Font Awesome**: Biblioteca de iconos vectoriales.
+- **HttpClient**: Cliente HTTP para realizar solicitudes a la API.
+
+## Instalación y Ejecución
+
+### Prerrequisitos
+- Node.js y npm instalados en su máquina.
+
+### Pasos
+1. Clonar el repositorio:
+    ```bash
+    git clone https://github.com/tuusuario/frontend-Angular.git
+    ```
+
+2. Instalar las dependencias:
+    ```bash
+    cd frontend-Angular
+    
+    npm install
+    ```
+
+3. Ejecutar la aplicación:
+    ```bash
+    npm start
+    ```
+
+4. Acceder a la aplicación en [http://localhost:4200].
+
+
+## Componentes Principales
+
+### Navegacion.js
+Este componente define la barra de navegación de la aplicación, utilizando `Angular-router-dom` para la navegación entre diferentes rutas.
+
+### AgregarObjeto.js
+Este componente permite agregar un nuevo objeto mediante un formulario. Utiliza `HttpClient` para enviar la solicitud POST al backend.
+
+### EditarObjeto.js
+Este componente permite editar un objeto existente. Utiliza `HttpClient` para enviar la solicitud PUT al backend.
+
+### ListadoObjetos.js
+Este componente muestra una lista de todos los objetos y permite buscar, editar y eliminar objetos mediante interacciones con el backend.
+
+### Bienvenida.js
+Este componente muestra una página de bienvenida con información básica sobre la aplicación y enlaces a otras secciones importantes.
