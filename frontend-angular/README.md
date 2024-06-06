@@ -20,19 +20,19 @@ El objetivo central de este frontend es proporcionar una interfaz de usuario efi
 
 ## Funcionalidades CRUD
 
-### Crear (AgregarObjeto.js)
+### Crear 
 Permite a los usuarios agregar nuevos objetos a la base de datos mediante un formulario. Los datos se envían al backend utilizando una solicitud HTTP POST.
 
-## Leer (ListadoObjetos.js)
+## Leer 
 Permite a los usuarios ver una lista de todos los objetos almacenados. Los datos se obtienen del backend mediante una solicitud HTTP GET.
 
-## Actualizar (EditarObjeto.js)
+## Actualizar
 Permite a los usuarios editar los detalles de un objeto existente. Los datos modificados se envían al backend utilizando una solicitud HTTP PUT.
 
-## Eliminar (ListadoObjetos.js)
+## Eliminar
 Permite a los usuarios eliminar un objeto de la base de datos. La eliminación se realiza mediante una solicitud HTTP DELETE.
 
-## Buscar Objetos (ListadoObjetos.js)
+## Buscar Objetos
 
 Permite a los usuarios buscar objetos en la base de datos utilizando varios filtros (nombre, descripción, precio, fecha de creación). La búsqueda se realiza mediante una solicitud HTTP GET con parámetros de consulta.
 
@@ -53,12 +53,12 @@ Permite a los usuarios buscar objetos en la base de datos utilizando varios filt
 ### Pasos
 1. Clonar el repositorio:
     ```bash
-    git clone https://github.com/tuusuario/frontend-Angular.git
+    git clone https://github.com/Julian1699/Base-Angular-SpringBoot.git
     ```
 
 2. Instalar las dependencias:
     ```bash
-    cd frontend-Angular
+    cd frontend-angular
     
     npm install
     ```
@@ -73,17 +73,23 @@ Permite a los usuarios buscar objetos en la base de datos utilizando varios filt
 
 ## Componentes Principales
 
-### Navegacion.js
-Este componente define la barra de navegación de la aplicación, utilizando `Angular-router-dom` para la navegación entre diferentes rutas.
+### navbar
+Este componente define la barra de navegación de la aplicación, utilizando `@angular/router` para la navegación entre diferentes rutas. Incluye enlaces a las diferentes secciones de la aplicación como Inicio, Agregar Objeto, Listar Objetos, Información y Tecnologías.
 
-### AgregarObjeto.js
-Este componente permite agregar un nuevo objeto mediante un formulario. Utiliza `HttpClient` para enviar la solicitud POST al backend.
+### agregar-objeto
+Este componente permite agregar un nuevo objeto mediante un formulario. Utiliza `HttpClient` para enviar la solicitud POST al backend. El formulario recoge información sobre el nombre, descripción y precio del objeto.
 
-### EditarObjeto.js
-Este componente permite editar un objeto existente. Utiliza `HttpClient` para enviar la solicitud PUT al backend.
+### editar-objeto
+Este componente permite editar un objeto existente. Utiliza `HttpClient` para enviar la solicitud PUT al backend. El formulario prellena los campos con los datos existentes del objeto y permite modificar el nombre, descripción y precio.
 
-### ListadoObjetos.js
-Este componente muestra una lista de todos los objetos y permite buscar, editar y eliminar objetos mediante interacciones con el backend.
+### objeto-lista
+Este componente muestra una lista de todos los objetos y permite buscar, editar y eliminar objetos mediante interacciones con el backend. Utiliza `HttpClient` para obtener los datos desde el backend y también permite filtrar los objetos según diferentes criterios como nombre, descripción, precio y fecha de creación.
 
-### Bienvenida.js
-Este componente muestra una página de bienvenida con información básica sobre la aplicación y enlaces a otras secciones importantes.
+### bienvenida
+Este componente muestra una página de bienvenida con información básica sobre la aplicación y enlaces a otras secciones importantes. Está diseñado para proporcionar una visión general del propósito y las funcionalidades de la aplicación.
+
+### informacion
+Este componente proporciona detalles adicionales sobre la aplicación, explicando su propósito, características y cómo utilizarla. Es útil para nuevos usuarios que desean aprender más sobre el sistema y sus capacidades.
+
+### tecnologias
+Este componente enumera y describe las tecnologías utilizadas en el desarrollo de la aplicación. Incluye descripciones de las tecnologías frontend y backend empleadas, como Angular, Bootstrap, Font Awesome, HttpClient para el frontend, y Spring Boot, Spring Data JPA, Swagger, y MySQL para el backend.
