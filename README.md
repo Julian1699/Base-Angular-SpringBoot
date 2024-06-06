@@ -7,6 +7,8 @@
 
 ¡Bienvenido al repositorio del proyecto de la Aplicación de Gestión de Objetos! En esta versión, hemos empleado MySQL para una mayor escalabilidad y rendimiento. La aplicación utiliza tecnologías modernas como Angular y Spring Boot.
 
+![image](https://github.com/Julian1699/Base-Angular-SpringBoot/assets/114323630/4e8b8112-537b-4782-8029-cc38a817c1ba)
+
 ## Descripción
 
 El objetivo central de esta aplicación es proporcionar una plataforma eficiente y centralizada para la gestión de objetos abstractos. Hemos combinado Angular en el frontend y Spring Boot en el backend para ofrecer una experiencia de usuario dinámica y una base sólida.
