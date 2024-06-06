@@ -1,0 +1,15 @@
+INSERT INTO Objeto (nombre, descripcion, precio, fecha_creacion) VALUES ('Objeto 1', 'Descripción del Objeto 1', 10.50, '2024-06-01 10:00:00');
+INSERT INTO Objeto (nombre, descripcion, precio, fecha_creacion) VALUES ('Objeto 2', 'Descripción del Objeto 2', 20.75, '2024-06-02 11:00:00');
+INSERT INTO Objeto (nombre, descripcion, precio, fecha_creacion) VALUES ('Objeto 3', 'Descripción del Objeto 3', 30.00, '2024-06-03 12:00:00');
+INSERT INTO Objeto (nombre, descripcion, precio, fecha_creacion) VALUES ('Objeto 4', 'Descripción del Objeto 4', 40.25, '2024-06-04 13:00:00');
+INSERT INTO Objeto (nombre, descripcion, precio, fecha_creacion) VALUES ('Objeto 5', 'Descripción del Objeto 5', 50.50, '2024-06-05 14:00:00');
+INSERT INTO Objeto (nombre, descripcion, precio, fecha_creacion) VALUES ('Objeto 6', 'Descripción del Objeto 6', 60.75, '2024-06-06 15:00:00');
+INSERT INTO Objeto (nombre, descripcion, precio, fecha_creacion) VALUES ('Objeto 7', 'Descripción del Objeto 7', 70.00, '2024-06-07 16:00:00');
+INSERT INTO Objeto (nombre, descripcion, precio, fecha_creacion) VALUES ('Objeto 8', 'Descripción del Objeto 8', 80.25, '2024-06-08 17:00:00');
+INSERT INTO Objeto (nombre, descripcion, precio, fecha_creacion) VALUES ('Objeto 9', 'Descripción del Objeto 9', 90.50, '2024-06-09 18:00:00');
+INSERT INTO Objeto (nombre, descripcion, precio, fecha_creacion) VALUES ('Objeto 10', 'Descripción del Objeto 10', 100.75, '2024-06-10 19:00:00');
+INSERT INTO Objeto (nombre, descripcion, precio, fecha_creacion) VALUES ('Objeto 11', 'Descripción del Objeto 11', 110.00, '2024-06-11 20:00:00');
+INSERT INTO Objeto (nombre, descripcion, precio, fecha_creacion) VALUES ('Objeto 12', 'Descripción del Objeto 12', 120.25, '2024-06-12 21:00:00');
+INSERT INTO Objeto (nombre, descripcion, precio, fecha_creacion) VALUES ('Objeto 13', 'Descripción del Objeto 13', 130.50, '2024-06-13 22:00:00');
+INSERT INTO Objeto (nombre, descripcion, precio, fecha_creacion) VALUES ('Objeto 14', 'Descripción del Objeto 14', 140.75, '2024-06-14 23:00:00');
+INSERT INTO Objeto (nombre, descripcion, precio, fecha_creacion) VALUES ('Objeto 15', 'Descripción del Objeto 15', 150.00, '2024-06-15 00:00:00');

@@ -1,0 +1,31 @@
+<nav class="navbar navbar-expand-lg navbar-dark bg-custom">
+  <div class="container-fluid">
+    <a class="navbar-brand d-flex align-items-center" routerLink="/">
+      <img src="assets/images/angular-logo.png" alt="Angular Logo" class="logo logo-bg-white">
+      <img src="assets/images/spring-logo.png" alt="Spring Boot Logo" class="logo logo-bg-white">
+      <span>Sistema de Objetos</span>
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" routerLink="/" routerLinkActive="active"><i class="fas fa-home"></i> Inicio</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" routerLink="/agregar-objeto" routerLinkActive="active"><i class="fas fa-plus-circle"></i> Agregar Objeto</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" routerLink="/objetos" routerLinkActive="active"><i class="fas fa-list"></i> Listar Objetos</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" routerLink="/informacion" routerLinkActive="active"><i class="fas fa-info-circle"></i> Información</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" routerLink="/tecnologias" routerLinkActive="active"><i class="fas fa-cogs"></i> Tecnologías</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>

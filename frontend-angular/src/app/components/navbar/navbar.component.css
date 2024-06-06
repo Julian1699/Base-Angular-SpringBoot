@@ -1,0 +1,17 @@
+.bg-custom {
+    background-color: #ee1e1e; /* Color rojizo */
+    margin-top: 30px; /* Ajusta este valor según lo que necesites */
+  }
+  
+  .logo {
+    height: 35px;
+    margin-right: 10px;
+    background-color: white; /* Fondo blanco */
+    padding: 5px; /* Espacio alrededor de la imagen */
+    border-radius: 5px; /* Esquinas redondeadas (opcional) */
+  }
+  
+  .navbar {
+    padding-top: 10px; /* Espacio adicional dentro de la navbar */
+  }
+  
